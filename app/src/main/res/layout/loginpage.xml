@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/renamepage">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="157dp"
+        android:background="@drawable/input_style"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_email"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey"
+        android:drawablePadding="10dp"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_password"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey"
+        android:drawablePadding="10dp"
+        android:hint="Password"/>
+    <Button
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_style"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:layout_marginTop="10dp"
+        android:onClick="btnLoginPage"
+        />
+    <Button
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_style"
+        android:textColor="@color/gold_yellow"
+        android:textStyle="bold"
+        android:drawablePadding="-30dp"
+        android:drawableStart="@drawable/ic_google"
+        android:paddingLeft="32dp"
+        android:text="Continue with google"
+        android:onClick="btnLoginPage"
+        ></Button>
+
+</LinearLayout>
